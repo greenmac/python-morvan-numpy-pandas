@@ -1,0 +1,8 @@
+# https://morvanzhou.github.io/tutorials/data-manipulation/np-pd/2-1-np-attributes/
+import numpy as np
+
+array = np.array([[1,2,3], [2,3,4]])
+print (array)
+print ('number of dim:', array.ndim)
+print ('shape:', array.shape)
+print ('size:', array.size)
